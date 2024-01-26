@@ -1,6 +1,6 @@
 \let\negmedspace\undefined
 \let\negthickspace\undefined
-\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
 \usepackage{algorithmic}
@@ -128,47 +128,40 @@
 Q:Find a GP for which sum of the first two terms is -4 and the fifth term is 4 times the third term.
 
 \solution
-Let the GP be $a_0,a_0r,a_0r^2,a_0r^3,......a_0r^n $\\
 
 $$x(n)=x(0)r^n$$
 
 \begin{table}[ht]
-\begin{minipage}{0.5\textwidth}
   \centering
   \input{tables/table1}
   \caption{Input Parameters}
   \label{tab:table1}
-\end{minipage}%
-\begin{minipage}{.5\textwidth}
-  \centering
-  \input{tables/table2}
-  \caption{Given Information}
-  \label{tab:table2}
-\end{minipage}
 \end{table}
-
 \begin{align}
-x(0)r^4&=4x(0)r^2\\
-r&=+2,-2
+x(0)r^4&=4x(0)r^2
 \end{align}
-Substituting value of r in $x(0)+x(0)r=4$\\
+\begin{equation}
+r=+2,-2
+\label{eq:eq2}
+\end{equation}
+From \tabref{tab:table1} and eq.\eqref{eq:eq2} :\\
 
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.22\textwidth}
 For $r=+2$\\
 $x(0)=\frac{-4}{3}$\\
 
 $x(n)=\frac{-4}{3}\times(2^n)$\\
 
-GP: $\frac{-4}{3}$,$\frac{-8}{3}$,$\frac{-16}{3}$,....\\
+$GP_1$: $\frac{-4}{3}$,$\frac{-8}{3}$,$\frac{-16}{3}$,....\\
 
  \end{minipage}
-\begin{minipage}{0.4\textwidth}
+\begin{minipage}{0.22\textwidth}
 For $r=-2$\\
 $x(0)=4$\\
 
 $x(n)=4\times(-2)^n$\\
 
-GP:$4,-8,16,-32,....$\\
+$GP_2$:$4,-8,16,-32,....$\\
 
 \end{minipage}
 
@@ -195,13 +188,13 @@ ROC: $z \in (-\infty,-2)\cup(2,\infty)$ \\
 \newpage
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.7\columnwidth]{figs/fig1.png}
+  \includegraphics[width=1.0\columnwidth]{figs/fig1.png}
   \caption{Representation of x(n) in $GP_2$}
   \label{fig:fig1}
 \end{figure}
 \begin{figure}[h]
   \centering
-  \includegraphics[width=0.697\columnwidth]{figs/fig2.png}
+  \includegraphics[width=1.0\columnwidth]{figs/fig2.png}
   \caption{Representation of x(n) in $GP_1$}
   \label{fig:fig2}
 \end{figure}
