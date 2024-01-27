@@ -129,8 +129,6 @@ Q:Find a GP for which sum of the first two terms is -4 and the fifth term is 4 t
 
 \solution
 
-$$x(n)=x(0)r^n$$
-
 \begin{table}[ht]
   \centering
   \input{tables/table1}
@@ -138,52 +136,34 @@ $$x(n)=x(0)r^n$$
   \label{tab:table1}
 \end{table}
 \begin{align}
+x(n)&=x(0)\times r^nu(n)\\
 x(0)r^4&=4x(0)r^2
 \end{align}
 \begin{equation}
 r=+2,-2
 \label{eq:eq2}
 \end{equation}
+\begin{align}
+\boxed{y(n)=x(0)\brak{\frac{r^{n+1}-1}{r-1}}u(n)}
+\end{align}
 From \tabref{tab:table1} and eq.\eqref{eq:eq2} :\\
+\begin{align}
+y(1)=x(0)\brak{\frac{r^2-1}{r-1}}\\
+-4=x(0)(r+1)\\
+\boxed{x(0)=\displaystyle\frac{-4}{r+1}}
+\end{align}\\
 
-\begin{minipage}{0.22\textwidth}
-For $r=+2$\\
-$x(0)=\frac{-4}{3}$\\
-
-$x(n)=\frac{-4}{3}\times(2^n)$\\
+\begin{enumerate}
+\item For $r=+2$\\
+$x(0)=\frac{-4}{3}$ ,\quad $x(n)=\frac{-4}{3}\times(2^n)$\\
 
 $GP_1$: $\frac{-4}{3}$,$\frac{-8}{3}$,$\frac{-16}{3}$,....\\
 
- \end{minipage}
-\begin{minipage}{0.22\textwidth}
-For $r=-2$\\
-$x(0)=4$\\
-
-$x(n)=4\times(-2)^n$\\
+\item For $r=-2$\\
+$x(0)=4$ ,\quad $x(n)=4\times(-2)^n$\\
 
 $GP_2$:$4,-8,16,-32,....$\\
-
-\end{minipage}
-
-General term can also be written as
-\begin{align}
-\boxed{ x(n)=x(0)\times r^nu(n) }   
-\end{align}
-\begin{align}
-   X(z)&=\frac{x(0)}{1-rz^{-1}}\quad\text{ROC:} |z|>|r|
-\end{align}
-
-\begin{equation}
-X(z) =
-\begin{cases}
-   \displaystyle\frac{4}{3(2z^{-1}-1)}, & r=+2 \quad\\
- 
-   \displaystyle\frac{4}{1+2z^{-1}}, & r=-2 \quad\\
-\end{cases}
-\end{equation}
-\begin{centering}
-ROC: $z \in (-\infty,-2)\cup(2,\infty)$ \\
-\end{centering}
+\end{enumerate}
 
 \newpage
 \begin{figure}[h]
