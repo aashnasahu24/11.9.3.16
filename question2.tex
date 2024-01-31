@@ -140,41 +140,41 @@ x(n)&=x(0)\times r^nu(n)\\
 x(0)r^4&=4x(0)r^2
 \end{align}
 \begin{equation}
-r=+2,-2
+\implies r=+2,-2
 \label{eq:eq2}
 \end{equation}
 \begin{align}
-\boxed{y(n)=x(0)\brak{\frac{r^{n+1}-1}{r-1}}u(n)}
+y(n)=x(0)\brak{\frac{r^{n+1}-1}{r-1}}u(n)
 \end{align}
 From \tabref{tab:table1} and eq.\eqref{eq:eq2} :\\
 \begin{align}
 y(1)=x(0)\brak{\frac{r^2-1}{r-1}}\\
 -4=x(0)(r+1)\\
-\boxed{x(0)=\displaystyle\frac{-4}{r+1}}
+\implies x(0)=\displaystyle\frac{-4}{r+1}
 \end{align}\\
 
 \begin{enumerate}
-\item For $r=+2$\\
-$x(0)=\frac{-4}{3}$ ,\quad $x(n)=\frac{-4}{3}\times(2^n)$\\
-
-$GP_1$: $\frac{-4}{3}$,$\frac{-8}{3}$,$\frac{-16}{3}$,....\\
-
-\item For $r=-2$\\
-$x(0)=4$ ,\quad $x(n)=4\times(-2)^n$\\
-
-$GP_2$:$4,-8,16,-32,....$\\
+\item For $r=+2$\quad $x(0)=\frac{-4}{3}$
+\begin{align}
+x(n)=\frac{-4}{3}\times(2^n)\\
+GP_1: \frac{-4}{3},\frac{-8}{3},\frac{-16}{3},....
+\end{align}\\
+\item For $r=-2$ \quad $x(0)=4$
+\begin{align}
+x(n)=4\times(-2)^n\\
+GP_2:4,-8,16,-32,....
+\end{align}\\
 \end{enumerate}
 
-\newpage
 \begin{figure}[h]
   \centering
-  \includegraphics[width=1.0\columnwidth]{figs/fig1.png}
+  \includegraphics[width=1.0\columnwidth]{figs/plot1.png}
   \caption{Representation of x(n) in $GP_2$}
   \label{fig:fig1}
 \end{figure}
 \begin{figure}[h]
   \centering
-  \includegraphics[width=1.0\columnwidth]{figs/fig2.png}
+  \includegraphics[width=1.0\columnwidth]{figs/plot2.png}
   \caption{Representation of x(n) in $GP_1$}
   \label{fig:fig2}
 \end{figure}
