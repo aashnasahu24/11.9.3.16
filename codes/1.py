@@ -6,8 +6,8 @@ from matplotlib.ticker import MultipleLocator
 with open('1.dat', 'r') as file:
     lines = file.readlines()
 
-# Extract data from each line using list comprehension
-data = [list(map(float, line.split())) for line in lines]
+# Extract data from each line 
+data = list(map(lambda line: list(map(float, line.split())), lines))
 
 # Unpack data using numpy array operations
 x_values, y1_values, y2_values = np.array(data).T
