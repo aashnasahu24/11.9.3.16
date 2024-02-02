@@ -15,7 +15,6 @@ x_values, y1_values, y2_values = np.array(data).T
 # Plot the data for the first GP
 plt.figure(figsize=(8, 8))
 
-plt.plot(x_values, y1_values, 'ro-', markersize=0, linewidth=0.3)
 plt.stem(x_values, y1_values, basefmt='b-', linefmt='-', markerfmt='ro')
 plt.title('General Term of Geometric Progression')
 plt.xlabel('n')
@@ -30,7 +29,6 @@ plt.show()
 # Plot the data for the second GP
 plt.figure(figsize=(8, 8))
 
-plt.plot(x_values, y2_values, 'ro-', markersize=0, linewidth=0.3)
 plt.stem(x_values, y2_values, basefmt='b-', linefmt='-', markerfmt='ro')
 plt.title('General Term of Geometric Progression')
 plt.xlabel('n')
