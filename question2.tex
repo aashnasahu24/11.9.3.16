@@ -136,6 +136,7 @@ Q:Find a GP for which sum of the first two terms is -4 and the fifth term is 4 t
   \label{tab:table1}
 \end{table}
 \begin{align}
+\label{eq:eq1}
 x(n)&=x(0)\times r^nu(n)\\
 x(0)r^4&=4x(0)r^2\\
 \implies r&=+2,-2
@@ -148,7 +149,7 @@ y(1)&=x(0)\brak{\frac{r^2-1}{r-1}}u(1)\\
 -4&=x(0)(r+1)\\
 \implies x(0)&=\frac{-4}{r+1}
 \end{align}\\
-
+From eq.\eqref{eq:eq1}:
 \begin{enumerate}
 \item For $r=+2$ , $x(0)=\frac{-4}{3}$
 \begin{align}
@@ -156,7 +157,7 @@ x(n)=\frac{-4}{3}\times(2^n)
 \end{align}\\
 \item For $r=-2$ , $x(0)=4$
 \begin{align}
-x(n)=4\times(-2)^n
+ x(n)=4\times(-2)^n
 \end{align}\\
 \end{enumerate}
 
