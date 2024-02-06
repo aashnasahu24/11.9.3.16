@@ -9,21 +9,21 @@ int main() {
     }
 
     // Parameters for the first GP
-    double first_term_1 =-4.0/3.0 ;
-    double common_ratio_1 = 2;
+    double x0_1 =-4.0/3.0 ;
+    double r_1 = 2;
 
     // Parameters for the second GP
-    double first_term_2 = 4.0;
-    double common_ratio_2 = -2;
+    double x0_2 = 4.0;
+    double r_2 = -2;
 
     // Number of terms
-    int n_terms = 10;
+    int n = 10;
 
     // Write the values for both GPs to the file in two columns with integers on the x-axis
-    for (int i = 1; i <= n_terms; ++i) {
-        fprintf(file, "%d\t%e\t%e\n", i, first_term_1, first_term_2);
-        first_term_1 *= common_ratio_1;
-        first_term_2 *= common_ratio_2;
+    for (int i = 1; i <= n; ++i) {
+        fprintf(file, "%d\t%e\t%e\n", i, x0_1, x0_2);
+        x0_1 *= r_1;
+        x0_2 *= r_2;
     }
     
     // Close the file

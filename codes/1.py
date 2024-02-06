@@ -16,7 +16,6 @@ x_values, y1_values, y2_values = np.array(data).T
 plt.figure(figsize=(8, 8))
 
 plt.stem(x_values, y1_values, basefmt='b-', linefmt='-', markerfmt='ro')
-plt.title('General Term of Geometric Progression')
 plt.xlabel('n')
 plt.ylabel('x_1(n)')
 
@@ -30,7 +29,6 @@ plt.show()
 plt.figure(figsize=(8, 8))
 
 plt.stem(x_values, y2_values, basefmt='b-', linefmt='-', markerfmt='ro')
-plt.title('General Term of Geometric Progression')
 plt.xlabel('n')
 plt.ylabel('x_2(n)')
 
