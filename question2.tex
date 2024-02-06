@@ -148,18 +148,28 @@ From \tabref{tab:table1} and \eqref{eq:eq3} :\\
 y(1)&=x(0)\brak{\frac{r^2-1}{r-1}}u(1)\\
 -4&=x(0)(r+1)\\
 \implies x(0)&=\frac{-4}{r+1}
-\end{align}\\
-From \eqref{eq:eq1}:
-\begin{enumerate}
-\item For $r=+2$ , $x(0)=\frac{-4}{3}$
+\end{align}
+
 \begin{align}
-x(n)=\frac{-4}{3}\times(2^n)
-\end{align}\\
-\item For $r=-2$ , $x(0)=4$
+x(0) =
+\begin{cases}
+   \displaystyle\frac{-4}{3}  , & r=+2 \quad\\
+      4  , & r=-2 \quad\\
+\end{cases}
+\end{align}
 \begin{align}
- x(n)=4\times(-2)^n
-\end{align}\\
-\end{enumerate}
+   X(z)&=\frac{x(0)}{1-rz^{-1}}\quad\text{ROC:} \abs{z}>\abs{r}
+\end{align}
+
+\begin{align}
+X(z) =
+\begin{cases}
+   \displaystyle\frac{4}{3(2z^{-1}-1)}, & r=+2 \quad\\
+   \displaystyle\frac{4}{1+2z^{-1}}, & r=-2 \quad\\
+\end{cases}
+\end{align}
+
+\[\text{ROC:}\abs{z}>2\]
 
 \begin{figure}[h]
   \centering
