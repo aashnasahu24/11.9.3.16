@@ -135,32 +135,26 @@ Q:Find a GP for which sum of the first two terms is -4 and the fifth term is 4 t
   \caption{Input Parameters}
   \label{tab:table1}
 \end{table}
+From \tabref{tab:table1}:
 \begin{align}
 x(0)r^4&=4x(0)r^2\\
-\implies r&=+2,-2
+\implies r&=\pm 2
 \label{eq:eq2}
 \end{align}
 
 From \tabref{tab:table1} and \eqref{eq:eq2} :\\
 \begin{align}
-y(1)&=x(0)\brak{\frac{r^2-1}{r-1}}u(1)\\
--4&=x(0)(r+1)\\
-\implies x(0)&=\frac{-4}{r+1}
-\end{align}
-
-\begin{align}
-x(0) =
+x(0)(r+1)&=-4\\
+\implies x(0)&=\frac{-4}{r+1}\\
+x(0) &=
 \begin{cases}
    \displaystyle\frac{-4}{3}  , & r=+2 \quad\\
       4  , & r=-2 \quad\\
 \end{cases}
 \end{align}
 \begin{align}
-   X(z)&=\frac{x(0)}{1-rz^{-1}}\quad ,\abs{z}>\abs{r}
-\end{align}
-
-\begin{align}
-X(z) =
+   X(z)&=\frac{x(0)}{1-rz^{-1}}\quad ,\abs{z}>\abs{r}\\
+X(z) &=
 \begin{cases}
    \displaystyle\frac{4}{3(2z^{-1}-1)}, & r=+2 \quad\\
    \displaystyle\frac{4}{1+2z^{-1}}, & r=-2 \quad\\

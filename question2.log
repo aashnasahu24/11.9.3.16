@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.5)  7 FEB 2024 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.5)  8 FEB 2024 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1294,22 +1294,22 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 1
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-<figs/plot1.png, id=9, 578.16pt x 578.16pt>
+<figs/plot1.png, id=10, 578.16pt x 578.16pt>
 File: figs/plot1.png Graphic file (type png)
 <use figs/plot1.png>
-Package pdftex.def Info: figs/plot1.png  used on input line 174.
+Package pdftex.def Info: figs/plot1.png  used on input line 168.
 (pdftex.def)             Requested size: 252.0pt x 252.00041pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/plot2.png, id=11, 578.16pt x 578.16pt>
+<figs/plot2.png, id=12, 578.16pt x 578.16pt>
 File: figs/plot2.png Graphic file (type png)
 <use figs/plot2.png>
-Package pdftex.def Info: figs/plot2.png  used on input line 180.
+Package pdftex.def Info: figs/plot2.png  used on input line 174.
 (pdftex.def)             Requested size: 252.0pt x 252.00041pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1318,18 +1318,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
  <./figs/plot1.png> <./figs/plot2.png>] (./question2.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `question2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30857 strings out of 478287
- 608649 string characters out of 5849290
- 870676 words of memory out of 5000000
+ 30852 strings out of 478287
+ 608613 string characters out of 5849290
+ 867677 words of memory out of 5000000
  48393 multiletter control sequences out of 15000+600000
- 537996 words of font info for 169 fonts, out of 8000000 for 9000
+ 535304 words of font info for 165 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,15n,96p,413b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1339,10 +1336,10 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on question2.pdf (1 page, 78779 bytes).
+Output written on question2.pdf (1 page, 77558 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
